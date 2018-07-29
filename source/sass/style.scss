@@ -1,3 +1,10 @@
-@import "global.scss";
 @import "variables.scss";
+@import "global.scss";
+@import "outlines.scss";
+
 @import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-main.scss";
+@import "blocks/button.scss";
+@import "blocks/catalog.scss";
+@import "blocks/card.scss";

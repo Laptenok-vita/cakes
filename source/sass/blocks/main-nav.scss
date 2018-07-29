@@ -1,0 +1,26 @@
+.main-nav__list {
+  // position: absolute;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-decoration: none;
+
+  background-color: $menu-color;
+
+}
+
+.main-nav__item {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 13px;
+    line-height: 26px;
+  }
+}
+
+

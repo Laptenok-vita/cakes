@@ -12,15 +12,21 @@
 
 @font-face {
   font-weight: 400;
-  font-family: "IntroScriptR-H2Base";
+  font-family: "IntroScriptR";
   font-style: normal;
-  src: url("../fonts/IntroScriptR-H2Base.woff2") format("woff2"); }
+  src: url("../fonts/IntroScriptR.woff2") format("woff2"); }
 
 @font-face {
   font-weight: 700;
   font-family: "PlayfairDisplay-Bold";
   font-style: normal;
   src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"); }
+
+@font-face {
+  font-weight: 400;
+  font-family: "MyriadPro-Regular";
+  font-style: normal;
+  src: url("../fonts/MyriadPro-Regular.woff2") format("woff2"); }
 
 html {
   -webkit-box-sizing: border-box;
@@ -35,11 +41,149 @@ html {
 body {
   min-width: 320px;
   margin: 0;
+  padding: 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  font-family: "Circe Regular", "Century Gothic", sans-serif; }
+  font-family: "Circe Regular", "Century Gothic", sans-serif;
+  color: #000000; }
+
+a {
+  text-decoration: none; }
 
 img {
   max-width: 100%;
   height: auto; }
+
+* {
+  outline: 1px dotted red; }
+
+* * {
+  outline: 1px dotted green; }
+
+* * * {
+  outline: 1px dotted orange; }
+
+* * * * {
+  outline: 1px dotted blue; }
+
+* * * * * {
+  outline: 1px dotted red; }
+
+* * * * * * {
+  outline: 1px dotted green; }
+
+* * * * * * * {
+  outline: 1px dotted orange; }
+
+* * * * * * * * {
+  outline: 1px dotted blue; }
+
+.page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 20px; }
+  @media (min-width: 768px) {
+    .page-header {
+      width: 768px; } }
+  @media (min-width: 1366px) {
+    .page-header {
+      width: 1366px;
+      padding: 0 75px; } }
+
+.page-header__logo {
+  font-family: "PlayfairDisplay", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 700; }
+  @media (min-width: 768px) {
+    .page-header__logo {
+      font-size: 20px; } }
+  @media (min-width: 1366px) {
+    .page-header__logo {
+      font-size: 24px; } }
+
+.page-header__text {
+  display: none; }
+  @media (min-width: 768px) {
+    .page-header__text {
+      display: block;
+      margin: 0;
+      font-size: 15px;
+      line-height: 40px; } }
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #e7e7e7; }
+
+.main-nav__item {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px; }
+  @media (min-width: 1366px) {
+    .main-nav__item {
+      font-size: 13px;
+      line-height: 26px; } }
+
+.page-main {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 20px; }
+  @media (min-width: 768px) {
+    .page-main {
+      width: 768px; } }
+
+.page-main__title {
+  font-family: "PlayfairDisplay", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px; }
+
+.page-main__description {
+  font-family: "IntroScriptR", "Verdana", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 78px; }
+
+.page-main__features-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px; }
+
+.button {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #f50049; }
+
+.catalog__title {
+  font-family: "PlayfairDisplay", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 66px;
+  color: #000000; }
+
+.card__title {
+  font-size: 14px;
+  line-height: 74px;
+  color: #000000; }
+
+.card__type {
+  font-size: 12px;
+  line-height: 74px;
+  color: #000000; }
