@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.96   0 0 0 0 0   0 0 0 0 0.286   0 0 0 1 0" /> </filter>
+		<image width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAADzUlEQVR4nGWU60vbdxTGj/fcU2NiNGo0xqlTWbzfwDveiZo4I4pRdCr1RUUMiooIgoKv12mZcVs7GCt7tZW+GRullYGjezfY2Iq2uthdkM21/Qf2+Qb3pg0c8ss35/uc8zzPOT/Z3NyUhYUFTV1dXcBgMNwjfk1ISDiPj48/5fuN4Pxcq9U+Ie9+VVXV6MzMjHZlZUVke3tbMz4+ft1kMh3rdLrfMzMzvzKbzeG4uLhwTEzMgYjsX8VBbGxsmJwP09PTPwfohHg2ODg4v76+rpW5ublAXl7eMwBOPB7PjNVqfYcEB78dXLAlJydf42NOTU21cZZRUlJib2hocMNgwuFwHLtcrvPp6elxycnJue92u//y+XzXQZfa2lopLS2V+vp6qays1FKkgORCimi5LE1NTTEAeQOBQMnY2NhEfn7+aXZ29rcC35Pi4uJ7PT09xfPz87KzsyOhUCgJMC8V9+12+6HNZjvke7+8vLw9GAxmU2C7tbXVRyfO6urqO0o7gfdzvV6/D4X03t5e2dra0g4NDc1ydpGYmPiK88cWi+V7nl8ajcYLOg9NTU25yTHQvYUC76NlRBD1DCcOoOjo6+sTqnjR4gJdjouKioJ0k4c+bqiNpqSk/JKRkfEPTnW2t7cLpti5v0ecCiBndPUxXK0AGaAU5sKrtra2kebmZikrK5Oamhrp6OiQ7u5uf1pa2gso3s7Nzb2Gk8nELTUqUSB+hJUz/FkAjUOn03nU39+fi7BRkMbGxijQyMiIk4IP6eSxRqPxcE8Hrd3XgUzKHTT5DheOcMXV2dmpXBKMELSRyclJZ2Fh4QNyf2CeSt8AgtpHiprX6zWixSfM0ksuv9vV1RXtSFFUo+H3+5V+l1D7jGIWgMzEXhRIiY0jB9ByDAwMyOzsrA9BL9HpZ/QK0KGLZxcz5MehH5VGGDKstONjI3b/B3qOrWpeovaze3q0uIEOl0lJSf8C9AjdHjIOf6PLC7pb2tjYMCrXOLdS5CaMImogn2Lzlzj2Nusia2trwhLqmGw/A3kb+4+w/4hCn6LP0PDwsAH7RQG1tLS4Kyoq7kYHkvn5mhX5E3GnSBK1BmgggKiKJjrxqKAzM9oJRaMjwUSr3FEkOc/KynqknBjDrQiAT3gtBBGzAEqpcFehZkV3FUrYVN4SNvbvLdZqFPo/oecfvD2mZXV1VYsjN0g4Y+t/A+gLnj+A9x7W3lL2XsUeZ7tcvkkHdxmBUyKCQaHl5WWdLC0tqbXQwnWC2fiGbk5wIaLGQrnxWpxhToScp9B9wGi8x97pFxcX5T8JgyH/RANinwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="инстаграм иконка " style="filter: url(#flt1)" href="#img1" x="0" y="0" />
+</svg>
