@@ -83,27 +83,27 @@
       <h2 class="special__title">Индивидуальный заказ</h2>
       <p class="special__description">Соберите торт в 3 шага</p>
       <ul class="special__list">
-        <li class="special__item filling">
-          <span class="filling__text">01</span>
-          <h3 class="filling__title">Выберите начинку</h3>
+        <li class="special__item constituting">
+          <span class="constituting__text">01</span>
+          <h3 class="constituting__title">Выберите начинку</h3>
           <picture>
               <source media="(min-width: 1366px)" srcset="img/filling-desktop.png">
               <source media="(min-width: 768px)" srcset="img/filling-desktop.png">
-              <img class="filling__photo" src="img/filling-mobile.png" width="240" height="110" alt="Шоколадная начинка">
+              <img class="constituting__photo" src="img/filling-mobile.png" width="240" height="110" alt="Шоколадная начинка">
           </picture>
 
-          <span class="filling__switch">1/12</span>
-          <h4 class="filling__name">Шоколадный ганаш</h4>
-          <p class="filling__description">Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
-          <span class="filling__price">1000 руб/кг</span>
-          <button class="filling__button button">Выбрать</button>
-          <button class="filling__pagination filling__pagination--prev" type="button">Предыдущий вид начинки</button>
-          <button class="filling__pagination filling__pagination--next" type="button">Следующий вид начинки</button>
+          <span class="constituting__switch constituting__switch--light">1/12</span>
+          <h4 class="constituting__name">Шоколадный ганаш</h4>
+          <p class="constituting__description">Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
+          <span class="constituting__price">1000 руб/кг</span>
+          <button class="constituting__button button">Выбрать</button>
+          <button class="constituting__pagination constituting__pagination--prev" type="button">Предыдущий вид начинки</button>
+          <button class="constituting__pagination constituting__pagination--next" type="button">Следующий вид начинки</button>
         </li>
-        <li class="special__item size">
-          <span class="size__text">02</span>
-          <h3 class="size__title">Размер</h3>
-          <form class="size__form form" action="http://echo.htmlacademy.ru" method="post">
+        <li class="special__item constituting">
+          <span class="constituting__text">02</span>
+          <h3 class="constituting__title">Размер</h3>
+          <form class="constituting__form form" action="http://echo.htmlacademy.ru" method="post">
             <div class="form__radio">
               <input class="form__input" type="radio" id="weight-1" name="weight">
               <label class="form__label" for="weight-1">
@@ -133,50 +133,51 @@
               </label>
             </div>
           </form>
-          <button class="size__button button">Выбрать</button>
+          <button class="constituting__button button">Выбрать</button>
         </li>
-        <li class="special__item decor">
-          <span class="decor__text">03</span>
-          <h3 class="decor__title">Оформление</h3>
-          <ul class="decor__list">
-            <li class="decor__item">
+        <li class="special__item constituting">
+          <span class="constituting__text">03</span>
+          <h3 class="constituting__title">Оформление</h3>
+          <ul class="constituting__list">
+            <li class="constituting__item">
               <picture>
                   <source media="(min-width: 1366px)" srcset="img/decor-cake-berry-desktop.png">
                   <source media="(min-width: 768px)" srcset="img/decor-cake-berry-tablet.png">
-                  <img class="decor__photo" src="img/decor-cake-berry-tablet.png" width="195" height="265" alt="Пример оформления">
+                  <img class="constituting__photo" src="img/decor-cake-berry-tablet.png" width="195" height="265" alt="Пример оформления">
               </picture>
-              <h4 class="decor__name">Ягодное ассорти</h4>
-              <span class="decor__price">700 руб/кг</span>
+              <h4 class="constituting__description">Ягодное ассорти</h4>
+              <span class="constituting__price">700 руб/кг</span>
             </li>
             <li>
               <picture>
                   <source media="(min-width: 1366px)" srcset="img/decor-cake-desktop.png">
                   <source media="(min-width: 768px)" srcset="img/decor-cake-tablet.png">
-                  <img class="decor__photo" src="img/decor-cake-mobile.png" width="170" height="195" alt="Пример оформления">
+                  <img class="constituting__photo" src="img/decor-cake-mobile.png" width="170" height="195" alt="Пример оформления">
               </picture>
-              <h4 class="decor__name">Маршмэллоу</h4>
-              <span class="decor__price">600 руб/кг</span>
+              <h4 class="constituting__description">Маршмэллоу</h4>
+              <span class="constituting__price">600 руб/кг</span>
             </li>
           </ul>
-          <button class="decor__pagination decor__pagination--prev" type="button">Предыдущий вид оформления</button>
-          <button class="decor__pagination decor__pagination--next" type="button">Следующий вид оформления</button>
-          <span class="decor__switch">2/35</span>
+          <button class="constituting__pagination constituting__pagination--prev" type="button">Предыдущий вид оформления</button>
+          <button class="constituting__pagination constituting__pagination--next" type="button">Следующий вид оформления</button>
+          <span class="constituting__switch constituting__switch--dark">1/35</span>
+          <span class="constituting__switch constituting__switch--dark">2/35</span>
           <aside class="special__aside aside">
             <h3 class="aside__title">Ваш выбор</h3>
-            <form class="aside__form form-order" action="http://echo.htmlacademy.ru" method="post">
-              <div class="form-order__text">
-                <label class="form-order__label" for="fill">Начинка</label>
-                <input class="form-order__input" type="text" id="fill" name="fill">
+            <form class="aside__form" action="http://echo.htmlacademy.ru" method="post">
+              <div class="aside__text">
+                <label class="aside__label" for="fill">Начинка</label>
+                <input class="aside__input" type="text" id="fill" name="fill">
               </div>
-              <div class="form-order__text">
-                <label class="form-order__label" for="size">Размер</label>
-                <input class="form-order__input" type="text" id="size" name="size">
+              <div class="aside__text">
+                <label class="aside__label" for="size">Размер</label>
+                <input class="aside__input" type="text" id="size" name="size">
               </div>
-              <div class="form-order__text">
-                <label class="form-order__label" for="decor">Оформление</label>
-                <input class="form-order__input" type="text" id="decor" name="decor">
+              <div class="aside__text">
+                <label class="aside__label" for="decor">Оформление</label>
+                <input class="aside__input" type="text" id="decor" name="decor">
               </div>
-              <button class="form-order__button button" type="submit">Заказать торт</button>
+              <button class="aside__button button" type="submit">Заказать торт</button>
             </form>
           </aside>
         </li>
@@ -192,12 +193,12 @@
             <img class="review__photo" src="img/autor-review-mobile.png" width="110" height="110" alt="Автор отзыва">
         </picture>
         <cite class="review__autor">Мария<br>юрист, 33 года</cite>
-        <blockquote class="review__text">Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку! Теперь
+        <blockquote class="review__description">Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку! Теперь
           будем заказывать торты только у вас для наших семейных праздников:)</blockquote>
         <a class="review__link" href="#">Развернуть</a>
         <span class="review__switch">1/26</span>
-        <button class="review__pagination review__pagination--prev" type="button">Предыдущий отзыв</button>
-        <button class="review__pagination review__pagination--next" type="button">Следующий отзыв</button>
+        <button class="review__pagination review__pagination--prev visually-hidden" type="button">Предыдущий отзыв</button>
+        <button class="review__pagination review__pagination--next visually-hidden" type="button">Следующий отзыв</button>
     </section>
 
     <section class="about">
@@ -223,7 +224,7 @@
         <blockquote class="baker__blockquote">Я за простые рецепты. В Италии это называют cucina povera: когда обычные ингредиенты превращаются в божественное
           блюдо.
         </blockquote>
-        <cite class="baker__autor">Кондитер Павел</cite>
+        <cite class="baker__autor visually-hidden">Кондитер Павел</cite>
       </div>
       <div class="about__section advantage">
         <h3 class="advantage__title">Наши преимущества</h3>
@@ -256,20 +257,20 @@
     <section class="order">
       <h2 class="order__title">Как заказать</h2>
       <ol class="order__list">
-        <li class="order__item order-conditions">
-          <span class="order-conditions__text">1</span>
-          <h3>Срок заказа</h3>
-          <p class="order-conditions__description">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю. </p>
+        <li class="order__item">
+          <span class="order__text">1</span>
+          <h3 class="order__subtitle">Срок заказа</h3>
+          <p class="order__description">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю. </p>
         </li>
-        <li class="order__item order-conditions">
-          <span class="order-conditions__text">2</span>
-          <h3>Доставка по городу</h3>
-          <p class="order-conditions__description">Доставка в пределах города 200 рублей , при заказе на сумму более 2000 доставка бесплатно.</p>
+        <li class="order__item">
+          <span class="order__text">2</span>
+          <h3 class="order__subtitle">Доставка по городу</h3>
+          <p class="order__description">Доставка в пределах города 200 рублей , при заказе на сумму более 2000 доставка бесплатно.</p>
         </li>
-        <li class="order__item order-conditions">
-          <span class=order-conditions__text"">3</span>
-          <h3 class="order-conditions__title">Доставка за городом</h3>
-          <p class="order-conditions__description">Доставка за пределами города рассчитывается индивидуально.</p>
+        <li class="order__item">
+          <span class="order__text">3</span>
+          <h3 class="order__subtitle">Доставка за городом</h3>
+          <p class="order__description">Доставка за пределами города рассчитывается индивидуально.</p>
         </li>
       </ol>
     </section>
@@ -278,7 +279,7 @@
       <h2 class="contacts__title">Контакты</h2>
       <span class="contacts__text">Остались вопросы?</span>
       <form class="contacts__form user-form" action="http://echo.htmlacademy.ru" method="post">
-        <p class="user-form__descroption">Заполните форму ниже и наш кондитер свяжется с Вами</p>
+        <p class="user-form__description">Заполните форму ниже и наш кондитер свяжется с Вами</p>
         <div class="user-form__text">
           <label class="user-form__label" for="user-name"></label>
           <input class="user-form__input" type="text" id="user-name" name="user-name" placeholder="Ваше имя">
@@ -294,12 +295,12 @@
         <button class="user-form__button button" type="submit">Отправить</button>
       </form>
       <div class="contacts__card">
-        <p class="contacts__tel">Или позвоните по телефону:<br>+7 906 899 92 96</p>
-        <p class="contacts__email">Наша почта : bakerybypavel@mail.ru</p>
-        <p class="contacts__social">Мы в соц. сетях:</p>
+        <p class="contacts__ways">Или позвоните по телефону:<br>+7 906 899 92 96</p>
+        <p class="contacts__ways">Наша почта : bakerybypavel@mail.ru</p>
+        <p class="contacts__ways">Мы в соц. сетях:</p>
         <ul class="contacts__social-list">
-          <li class="contacts__social-item">Мы в Инстаграмм</li>
-          <li class="contacts__social-item">Мы во Вконтакте</li>
+          <li class="contacts__social-item visually-hidden">Мы в Инстаграмм</li>
+          <li class="contacts__social-item visually-hidden">Мы во Вконтакте</li>
         </ul>
       </div>
     </section>
@@ -322,8 +323,8 @@
     </div>
     <div class="page-footer__social social">
       <ul class="social__list">
-        <li class="social__item">Мы в Инстаграм</li>
-        <li class="social__item">Мы во Вконтакте</li>
+        <li class="social__item visually-hidden">Мы в Инстаграм</li>
+        <li class="social__item visually-hidden">Мы во Вконтакте</li>
       </ul>
     </div>
   </footer>
