@@ -1,4 +1,67 @@
+.form {
+  position: relative;
+
+  margin: 44px 0 0;
+
+  text-align: center;
+}
+
+.form__radio {
+  margin: 0 0 56px;
+}
+.form__radio:not(:first-of-type) {
+  display: none;
+}
+
+.form__input {
+  display: none;
+}
+
 .form__label {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.form__text {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+
+.form__image {
+  margin: 0 0 60px;
+}
+
+.form__pagination-list {
+  position: absolute;
+  top: 156px;
+  left: 98px;
+
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.form__pagination-item {
+  content: "";
+
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+
+  background-color: $light-gray;
+  border: 1px solid $light-gray;
+  border-radius: 50%;
+
+  &--active {
+    width: 8px;
+    height: 8px;
+
+    background-color: $pink;
+    border: 1px solid $pink;
+  }
 }

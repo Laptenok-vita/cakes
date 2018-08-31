@@ -1,11 +1,26 @@
 .button {
-  margin: 0;
-  padding: 0;
+  display: block;
+  margin: 0 auto;
 
   font-size: 13px;
-  line-height: 26px;
+  line-height: 23px;
   color: $white;
   text-transform: uppercase;
+  text-align: center;
 
   background-color: $pink;
+  border: 1px solid $pink;
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  &--big {
+    width: 227px;
+    padding: 12px 10px;
+  }
+
+  &--small {
+    width: 180px;
+    padding: 12px 10px;
+  }
 }

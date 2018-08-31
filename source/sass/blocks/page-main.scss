@@ -1,7 +1,19 @@
 .page-main {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
   width: $mobile-width;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
+
+  background-color: $light-pink;
+
+  background-image: url("../img/general-cake-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 320px auto;
+  background-position: 0 -40px;
 
   @media (min-width: $tablet-width) {
     width: $tablet-width;
@@ -9,25 +21,37 @@
 }
 
 .page-main__title {
+  margin: 0 20px 0;
+  padding: 130px 0 10px;
+  text-align: center;
   font-family: "PlayfairDisplay", "Times New Roman", serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 36px;
+  letter-spacing: 0.09em;
 }
 
 .page-main__description {
   font-family: "IntroScriptR", "Verdana", sans-serif;
   font-weight: 400;
   font-size: 22px;
-  line-height: 78px;
+  line-height: 33px;
+  margin: 0 20px;
+  padding: 5px 0;
+  text-align: center;
 }
 
 .page-main__features-list {
-  margin: 0;
-  padding: 0;
+  margin: 0 0 27px;
+  padding: 0 20px;
 
   list-style: none;
   text-decoration: none;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.page-main__features-item {
+  padding: 10px 30px 15px 40px;
 }

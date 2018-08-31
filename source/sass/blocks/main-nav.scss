@@ -1,5 +1,46 @@
+.main-nav {
+
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__toggle {
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.main-nav__toggle::before {
+  content: "";
+  position: absolute;
+
+  width: 18px;
+  height: 2px;
+  background-color: $black;
+  border: none;
+
+  top: 0;
+  right: 20px;
+
+  margin: 0;
+  padding: 0;
+
+  box-shadow: 0 5px 0 0 $black,
+  0 10px 0 0 $black;
+
+  cursor: pointer;
+}
+
 .main-nav__list {
-  // position: absolute;
+  content: "";
+  position: absolute;
+  width: 320px;
+
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
 
   margin: 0;
   padding: 0;
@@ -8,14 +49,43 @@
   text-decoration: none;
 
   background-color: $light-gray;
+}
 
+.main-nav--open {
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.main-nav--close {
+  font-size: 0;
+  line-height: 0;
+}
+
+.main-nav--close .main-nav__list {
+  display: none;
+}
+
+.main-nav--close .main-nav__toggle {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav--no-js .main-nav__list {
+  position: static;
+}
+
+.main-nav--no-js .main-nav__toggle {
+  display: none;
+  border: none;
+  background-color: transparent;
 }
 
 .main-nav__item {
   text-transform: uppercase;
   text-align: center;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 15px;
 
   @media (min-width: $desktop-width) {
     font-size: 13px;
@@ -23,4 +93,10 @@
   }
 }
 
-
+.main-nav__link {
+  display: block;
+  width: 100%;
+  color: $black;
+  padding: 15px 0 10px;
+  cursor: pointer;
+}
