@@ -1,5 +1,7 @@
 .baker {
   position: relative;
+  margin-bottom: 19px;
+  padding: 0 19px;
 }
 
 .baker__social-list {
@@ -20,7 +22,6 @@
 
 .baker__social-item {
   display: flex;
-
   width: 36px;
   height: 36px;
 
@@ -33,11 +34,14 @@
 }
 
 .baker__title {
+  margin: 0;
+
   font-weight: 400;
   font-size: 22px;
-  line-height: 78px;
+  line-height: 33px;
   font-family: "IntroScriptR", "Verdana", sans-serif;
   color: $black;
+  letter-spacing: 0.02em;
 }
 
 // .baker__picture {
@@ -59,23 +63,53 @@
 }
 
 .baker__subtitle {
+  margin: 0;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   color: $black;
+  letter-spacing: 0.02em;
 }
 
 .baker__description {
+  margin: 7px 0 10px;
+
   font-size: 14px;
-  line-height: 21px;
+  line-height: 17px;
   color: $black;
 }
 
 .baker__blockquote {
+  position: relative;
+  margin: 66px 0;
+
   font-weight: 700;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 16px;
   font-family: "PlayfairDisplay", "Times New Roman", serif;
   color: $black;
   font-style: italic;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.baker__quotes-icon {
+  position: absolute;
+
+  top: -30px;
+  left: 125px;
+
+  width: 26px;
+  height: 17px;
+}
+
+.baker__autor-icon {
+  position: absolute;
+
+  bottom: 15px;
+  left: 107px;
+
+  width: 61px;
+  height: 31px;
 }

@@ -1,4 +1,25 @@
+.meaning {
+  position: relative;
+  padding: 0 19px 170px;
+}
+
+.meaning::after {
+  position: absolute;
+  content: "";
+
+  bottom: 0;
+  left: 0;
+
+  width: 320px;
+  height: 170px;
+
+  background-image: url("../../img/servece-cake-mobile.png");
+  background-repeat: no-repeat;
+}
+
 .meaning__title {
+  margin: 3px 0;
+
   font-family: "PlayfairDisplay", "Times New Roman", serif;
   font-weight: 700;
   font-size: 24px;
@@ -10,12 +31,14 @@
   font-family: "IntroScriptR", "Verdana", sans-serif;
   font-weight: 400;
   font-size: 22px;
-  line-height: 78px;
+  line-height: 26px;
   color: $black;
 }
 
 .meaning__description {
+  margin: 0;
+
   font-size: 14px;
-  line-height: 21px;
+  line-height: 17px;
   color: $black;
 }

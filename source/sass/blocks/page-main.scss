@@ -53,5 +53,21 @@
 }
 
 .page-main__features-item {
+  position: relative;
   padding: 10px 30px 15px 40px;
+}
+
+.page-main__features-icon {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 33px;
+  height: 33px;
+
+  fill: $pink;
+
+  @media (min-width: $tablet-width) {
+    width: 55px;
+    height: 55px;
+  }
 }
