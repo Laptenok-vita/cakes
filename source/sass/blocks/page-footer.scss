@@ -1,19 +1,54 @@
 .page-footer {
-  background-color: $dark-gray;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+
+  background-color: $dark-gray;
 }
 
 .page-footer__logo {
-  font-family: "PlayfairDisplay", "Times New Roman", serif;
+  margin: 0;
+  padding: 32px 0 0 19px;
+
   font-weight: 700;
   font-size: 28px;
   line-height: 44px;
+  font-family: "PlayfairDisplay", "Times New Roman", serif;
   color: $white;
+  letter-spacing: 0.05em;
 }
 
 .page-footer__copyright {
+  position: relative;
+
+  order: 1;
+  padding: 0 0 0 20px;
+
+  font-size: 12px;
+  line-height: 33px;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  color: $light-gray;
+  color: $copyright-gray;
+}
+
+.page-footer__copyright::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 23px;
+
+  width: 275px;
+  height: 1px;
+
+  background-color: $copyright-gray;
+}
+
+.page-footer__copyright-sign {
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer__copyright-legend {
+  padding: 0 0 0 5px;
+
+  letter-spacing: 0.03em;
 }

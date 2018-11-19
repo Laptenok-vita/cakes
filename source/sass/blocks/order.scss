@@ -1,32 +1,80 @@
 .order {
+  position: relative;
+
+  padding: 10px 20px 150px;
+
   background-color: $red;
 }
 
+.order::after {
+  position: absolute;
+  content: "";
+
+  width: 320px;
+  height: 134px;
+
+  bottom: 0;
+  left: -7px;
+
+  background-image: url("../img/gift-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 0;
+}
+
 .order__title {
-  font-family: "PlayfairDisplay", "Times New Roman", serif;
+  margin: 22px 0 35px;
+
   font-weight: 700;
   font-size: 24px;
   line-height: 25px;
+  font-family: "PlayfairDisplay", "Times New Roman", serif;
+  text-align: center;
   color: $white;
+}
+
+.order__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.order__item {
+  position: relative;
+
+  margin-top: 20px;
 }
 
 .order__text {
-  font-family: "PlayfairDisplay", "Times New Roman", serif;
+  position: absolute;
+  top: -15px;
+  left: 18px;
+
   font-weight: 700;
   font-size: 35px;
-  line-height: 64px;
+  line-height: 39px;
+  font-family: "PlayfairDisplay", "Times New Roman", serif;
   color: $white;
 }
 
+.order__wrap {
+  padding-left: 45px;
+}
+
 .order__subtitle {
+  margin: 0;
+
   font-weight: 700;
   font-size: 15px;
-  line-height: 22px;
+  line-height: 21px;
   color: $white;
 }
 
 .order__description {
+  margin: 0;
+
   font-size: 14px;
-  line-height: 21px;
+  line-height: 17px;
   color: $white;
 }

@@ -1,13 +1,37 @@
 .user-form__description {
+  margin: 0;
+
   font-size: 14px;
-  line-height: 21px;
+  line-height: 19px;
   color: $black;
 }
 
+.user-form__text {
+  margin: 7px 0 10px;
+}
+
 .user-form__input {
+  width: 100%;
+  padding: 14px 10px;
+
   font-family: inherit;
   font-size: 14px;
   line-height: 21px;
   color: $black;
-  opacity: 0.2;
+
+  background-color: $white;
+  border: none;
+  border-radius: 5px;
+}
+
+.user-form__text textarea {
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+.user-form__button {
+  text-transform: none;
+
+  font-size: 19px;
+  line-height: 24px;
 }
